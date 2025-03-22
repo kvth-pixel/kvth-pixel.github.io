@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #413d3c;
+  height: 100vh;
+  width: 100vw;
+}
+
+.topNav {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.topNav:first-child {
+  margin-right: 400px;
+}
+
+.head {
+  font-size: 50px;
+  margin-left: 20px;
+  margin-right: 850px;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  gap: 90px;
+  /* background-color: rgb(236, 240, 236); */
+}
+
+a {
+  text-decoration: none;
+}
+.navButton {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  font-size: 25px;
+  color: white;
+}
+
+#aboutmeID {
+  display: flex;
+  width: 130px;
+}
+
+#porfolioID {
+  color: gold;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box10 {
+    height: 600px;
+    width: 1580px;
+    margin-top: 100PX;
+    display: flex;
+    justify-content: space-between;
+}
+.box11 {
+    height: 100%;
+    width: 450px;
+    background-image: url(1file.jpeg);
+    background-position: center;
+    background-size: 390px;
+    background-repeat: no-repeat;
+
+}
+.box12 {
+    height: 100%;
+    width: 450px;
+    background-image: url(2file.jpeg);
+    background-position: center;
+    background-size: 390px;
+    background-repeat: no-repeat;
+
+}
+.box13 {
+    height: 100%;
+    width: 450px;
+    background-image: url(3file.jpeg);
+    background-position: center;
+    background-size: 385px;
+    background-repeat: no-repeat;
+
+}

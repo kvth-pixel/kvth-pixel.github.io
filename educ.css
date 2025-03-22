@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #413d3c;
+  height: 100vh;
+  width: 100vw;
+}
+
+.topNav {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.topNav:first-child {
+  margin-right: 400px;
+}
+
+.head {
+  font-size: 50px;
+  margin-left: 20px;
+  margin-right: 850px;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  gap: 90px;
+  /* background-color: rgb(236, 240, 236); */
+}
+
+a {
+  text-decoration: none;
+}
+.navButton {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  font-size: 25px;
+  color: white;
+}
+
+#aboutmeID {
+  display: flex;
+  width: 130px;
+}
+
+#educationID {
+  color: gold;
+}
+
+main {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.box8 {
+  height: 300px;
+  width: 300px;
+  background-image: url(ICClogo.jpeg);
+  background-position: center;
+  background-size: 600px;
+  background-repeat: no-repeat;
+  border-radius: 500px;
+  margin-left: 60px;
+  margin-top: 75px;
+}
+
+.box9 {
+  height: 500px;
+  width: 80%;   
+  margin-top: 75px;
+  color: white;
+}
+
+h1 {
+  margin-left: 30px;
+  font-size: 75px;
+}
+
+h4 {
+  margin-left: 30px;
+  font-size: 45px;
+}

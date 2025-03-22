@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #413d3c;
+  height: 100vh;
+  width: 100vw;
+}
+
+.topNav {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.topNav:first-child {
+  margin-right: 400px;
+}
+
+.head {
+  font-size: 50px;
+  margin-left: 20px;
+  margin-right: 850px;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  gap: 90px;
+  /* background-color: rgb(236, 240, 236); */
+}
+
+a {
+  text-decoration: none;
+}
+.navButton {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  font-size: 25px;
+  color: white;
+}
+
+#aboutmeID {
+  display: flex;
+  width: 130px;
+}
+
+#aboutmeID {
+  color: gold;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  width: 1000px;
+  color: white;
+}
+
+.box4 h1 {
+  font-size: 70px;
+  margin-bottom: 15px;
+  border-top: 5px solid gold;
+  border-bottom: 5px solid gold;
+}
+p {
+  font-size: 35px;
+  margin-top: 15px;
+}
+
+h1 {
+  font-size: 70px;
+  color: white;
+}
+
+.boxtalent {
+  height: 300px;
+  width: 1300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box5 {
+  height: 100%;
+  width: 350px;
+  background-image: url(1PIC.jpeg);
+  background-position: center;
+  background-size: 600px;
+  background-repeat: no-repeat;
+}
+.box6 {
+  height: 100%;
+  width: 350px;
+  display: flex;
+  background-image: url(2PIC.jpeg);
+  background-position: center;
+  background-size: 500px;
+  background-repeat: no-repeat;
+}
+.box7 {
+  height: 100%;
+  width: 350px;
+  background-image: url(3PIC.jpeg);
+  background-position: center;
+  background-size: 500px;
+  background-repeat: no-repeat;
+}

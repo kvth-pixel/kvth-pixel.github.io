@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #413d3c;
+  height: 100vh;
+  width: 100vw;
+}
+
+.topNav {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.topNav:first-child {
+  margin-right: 400px;
+}
+
+.head {
+  font-size: 50px;
+  margin-left: 20px;
+  margin-right: 850px;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  gap: 90px;
+  /* background-color: rgb(236, 240, 236); */
+}
+
+a {
+  text-decoration: none;
+}
+.navButton {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  font-size: 25px;
+  color: white;
+}
+
+#aboutmeID {
+  display: flex;
+  width: 130px;
+}
+
+#homeID {
+  color: gold;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box1 {
+  height: 530px;
+  width: 530px;
+  font-style: inherit;
+  color: white;
+}
+.box2 {
+  margin-top: 150px;
+  height: 700px;
+  width: 420px;
+  background-image: url(kim.jpeg);
+  background-position: cover;
+}
+.box3 {
+  height: 530px;
+  width: 530px;
+  font-style: inherit;
+  color: white;
+}
+
+.name {
+  font-size: 90px;
+  margin-bottom: 12px;
+  margin-top: 50px;
+}
+hr {
+  width: 300px;
+  height: 8px;
+  background-color: gold;
+  border: none;
+  margin: 10px 0;
+}
+.contact {
+  font-size: 35px;
+  margin-top: 20px;
+}
+.intro {
+  font-size: 25px;
+  margin-bottom: 15px;
+  margin-top: 50px;
+  color: gold;
+}
+.song {
+  font-size: 50px;
+  margin-top: 12px;
+  margin-bottom: 14px;
+}
+.paragraph {
+  font-size: 30px;
+  margin-top: 9px;
+}
